@@ -32,7 +32,7 @@ namespace JenkinsWithDotnet
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello MinGyu 7 ^^ !");
+                    await context.Response.WriteAsync("밤 새는게 익숙해 지고 있어요!");
                 });
             });
         }
